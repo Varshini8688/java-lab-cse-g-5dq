@@ -1,2 +1,2 @@
-# java-lab-cse-g-dq
-it is a java lab in 2 b.tech 2 sem
+# java-lab-cse-g-5dq
+it is a java lab in 2nd b.tech 2nd sem
