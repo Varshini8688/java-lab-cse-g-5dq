@@ -81,4 +81,47 @@ class Testvehicle {
 ```
 ## Output:
 ![EXp-4b Output](bicycle.png)
-   
+
+##Experiment-4c
+## Title:To construct abstract class to find areas of different shapes
+## Source Code:
+``` java
+ abstract class Figure{
+    double dim1;
+    double dim2;
+    Figure(double dim1,double dim2){
+      this.dim1 = dim1;
+      this.dim2 = dim2;
+    }
+    abstract double area();
+  }
+  class Rectangle extends Figure{
+    Rectangle(double length,double breadth){
+      super(length,breadth);
+    }
+    double area(){
+      double result = dim1*dim2;
+      return result;
+    }
+  }
+  class Triangle extends Figure{
+    Triangle(double base,double height){
+      super(base,height);
+    }
+    double area(){
+      double result = 0.5*dim1*dim2;
+      return result;
+    }
+  }
+class TestFigure{
+     public static void main(String[] args){
+          Figure f1 = new Rectangle (23.4,14.5);
+          Figure f2 = new Triangle (12.3,15.6);
+          System.out.println("Area of Rectangle= " + f1.area());
+          System.out.println("Area of Triangle= " + f2.area());
+    }
+}
+```
+## Output:
+![EXp-4c Output](figure.png)
+
