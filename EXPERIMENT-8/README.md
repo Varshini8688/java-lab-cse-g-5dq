@@ -42,7 +42,7 @@ class TestDaemon {
 }
 ```
 Output:
-[Exp-8a output](8a.png)
+![Exp-8a output](8a.png)
 
 ## Experiment-8b
 ## Title: Implements producer and Consumer problem using inter Thread Communication.
@@ -128,5 +128,5 @@ class Main {
 }
 ```
 Output:
-[Exp-8b output](8b.png)
+![Exp-8b output](8b.png)
 
